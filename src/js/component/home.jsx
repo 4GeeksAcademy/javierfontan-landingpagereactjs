@@ -8,19 +8,24 @@ import { Footer } from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
+		<div className="container fluid">
 			<NavBar />
 			<Jumbotron />
 			<div className="Cards">
 				<div className="card-group">
 					<Card
-						title="Quienes somos"/>
+						title="Quienes somos"
+						description="Esta es una descripción de cuales son nuestros objetivos"
+						imagen="https://img.freepik.com/fotos-premium/chica-sonriente-mirando-computadora-portatil-mientras-estudia-biblioteca_1048944-22474512.jpg?w=1380" />
 					<Card
-						title="Servicios"/>
+						title="Servicios"
+						description="Aqui se describe cuales son nuestros servicios al cliente" />
 					<Card
-						title="Como lo hacemos" />
+						title="Como lo hacemos"
+						description="Aqui se puede observar cual es nuestro método de trabajo" />
 					<Card
-						title="contacto" />
+						title="Contacto"
+						description="Información de contacto para clientes y proveedores" />
 				</div>
 			</div>
 			<Footer />
